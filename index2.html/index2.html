@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title class="restaurante.camp">restaurante campestre</title>
+    <LINk rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="fonts.css"> 
+        <link rel="icon" href="imagenes/restaurante.jpeg" type="img/png">
+</head>
+<body>
+    <div class="presentation">
+        <div class="name_presentation">
+            <h2 class="name">Dabinson Stiven Felix Alvis</h2>
+        </div>
+        <img src="../index2.html/imagenes/imagenes/WhatsApp Image 2024-05-06 at 6.38.21 AM.jpeg" alt="">
+    </div>
+    <form >
+        <h2> formulario de contacto</h2>
+        <fieldset>
+            <legend>INFORMACION BASICA</legend>
+            <div class="form_input">
+                <label for="nombre"> Nombre completo</label>
+                <input type="text" placeholder="john doe" id="nombre">
+            </div>
+            <div class="form_input">
+                <label for="email">Email</label>
+                <input type="email" placeholder="ejemplo@gmail.com" id="email">
+            </div>
+            <!-- DATALIST Y OPTION -->
+            <div class="form_input">
+                <label for="">Referente
+                    <input list="referente" name="referente">
+                    <datalist id="referente" name="type-of-user">
+                        <option value="user1">persona natural</option>
+                        <option>soy Empresa</option>
+                        <option>soy microempresa</option>
+                    </datalist>   
+                </label>
+            </div>
+        </fieldset>
+        <!-- SELECT Y OPTION-->
+        <div class="form_input">
+            <label for="">Tipo de usuario
+                <select name="type-of-user">
+                    <option value="user1">seguidor/a</a></option>
+                    <option value="user2">Empresa</option>
+                    <option value="user3">Otros</option>
+                </select>
+            </label>
+        </div>
+        <!-- TEXTAREA-->
+        <div class="form_input">
+            <label for="mensaje">Deja un comentario</label>
+            <textarea name="deja tu comentario" placeholder="Deja tu mensaje" maxlength="200" rows="5" id="mensaje"></textarea>    
+        </div>
+        <div class="form_input">
+            <label for="acepto">Acepto <a href="terms.html">los terminos y condiciones</a></label>
+            <input type="checkbox" name="Acepto terminos y condiciones" id="acepto" class="checkbox">
+                
+        </div>
+    </form>
+    <form>
+        <fieldset>
+            <legend>INFORMACION BASICA</legend>
+            <input class="input_fieldset" type="text" placeholder="Nombre">
+            <input class="input_fieldset" type="text" placeholder="Apellido">
+            <input class="input_fieldset" type="number" placeholder="Edad">
+        </fieldset>
+        <fieldset>
+            <legend>INFORMACION DE CONTACTO</legend>
+            <input class="input_fieldset" type="email" placeholder="Email">
+            <input class="input_fieldset"  type="text" placeholder="Telefono"> 
+        </fieldset>       
+    </form>
+
+    
+    
+        
+</body>
+</html>

@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    color: #eee;
+    background:rgb(26, 26, 26);
+}
+img{
+    max-width: 100px;
+    display: flex;
+    border-radius: 50%;
+    margin-left: 35px;
+    padding-top: 10px;
+    
+}
+.name{
+    color:rgba(255, 255, 255, 0.434);
+    margin-left: 94px;
+    text-align: justify;
+}
+.name_presentation{
+    width: 500px;
+    margin-top: 30px;
+    background: red;
+}
+
+.presentation{
+    background-color: transparent;
+    padding: 20px 0;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 55px rgba(255, 255, 255, 0.456);
+    margin-top: 60px;
+  
+}
+
+h2{
+    color: #69f;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+form{
+    background-color: transparent;
+    padding: 20px 0;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 55px #fff2;
+    margin-top: 60px;
+}
+.form_input{
+    padding: 6px 20px;
+}
+input,textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border: none;
+    border: 1px solid #666;
+    box-shadow: 0px  0px 15px #0003;
+    background-color: transparent;
+    border-radius: 8px;
+    color:#999;
+}
+
+textarea{
+min-height: 100%;
+resize: none;
+min-height: 100px;
+font-family: sans-serif;
+}
+
+label{
+    font-size: .80em;
+    line-height: 2;
+}
+.checkbox{
+    width: auto;
+    height: 10px;
+
+}
+fieldset{
+    padding-bottom: 18px;
+    margin: 20PX 10px;
+    border: 1px solid #ddd6;
+    border-radius: 5px;
+}
+
+.input_fieldset{
+    margin: 4px 0;
+}
+
+legend{
+    padding: 0 8px;
+    color: #777;
+}
+
+a{
+    color:#69f;
+    text-decoration: none;
+}

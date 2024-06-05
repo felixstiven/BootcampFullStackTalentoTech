@@ -1,0 +1,33 @@
+section .elemento1,
+ .elemento2,
+.elemento3 {
+    color: brown;
+}
+
+/* MODIFICANDO EL LOS ELEMENTOS 1.2 Y 3 QUE ESTAN DENTRP DE ALGUN SECTION*/
+section :is(.elemento1, .elemento2, .elemento3) {
+    color: blue;
+}
+/* SI QUEREMOS QUE NO CAMBIE LA ESPECIFIDAD, USAMOS WHERE()*/
+
+
+/* EN CASO DE QUE A UL LE SIGA UN DIV MOFICAMOS EL UL*/
+
+ul:has(+div) {
+    color: brown;
+}
+
+div{
+    padding: 20px;
+}
+label{
+    font-weight: bold;
+}
+
+label:has(input:valid), input:valid {
+    color: green;
+}
+
+label:has(input:invalid), input:invalid {
+    color: red;
+}
