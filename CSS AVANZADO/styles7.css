@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background-color: #ededed;
+
+}
+.box{
+    background-color: blueviolet;
+    width: 200;
+    height: 400px;
+}
+
+.box--yellow{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(227, 230, 81);
+    color: white;
+    position: relative;
+}
+
+.box--blue {
+    background-color: blue;
+    top: -20px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+} 
+.box--red{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
