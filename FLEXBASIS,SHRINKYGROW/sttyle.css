@@ -1,0 +1,39 @@
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+div, body{
+    box-sizing: border-box;
+}
+
+.flexbox{
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+    border: 2px solid #000;
+    align-items: center;
+    justify-content:space-evenly;  
+    background-color: #fff;
+    margin: 20px;
+}
+
+.flex-item{
+    width: 100px;
+    color: #fff;
+    background-color:#911;
+    text-align: center;
+    font-size: 40px;
+    flex-grow: 1;
+    flex-shrink: 0; /* determinar quien se encoje y quien no*/
+}
+.flex-item:first-child{
+    background-color: #d56;
+    flex-grow: 2;  
+}
+.flex-item:last-child{
+    background-color: rgb(33, 30, 30);
+    flex-grow: 4;  
+}

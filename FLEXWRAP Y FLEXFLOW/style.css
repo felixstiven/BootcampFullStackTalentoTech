@@ -1,0 +1,33 @@
+/* FLEXWRAP:nos permite controlar el comportamineto de flexitem. una vez que ya el espacio es insuficiente para abarcar todos los elementos que el contendor no tiene su espacio*/
+
+/* depues dera la alineacion con los mimos propiedades;  justify-content alinea los elementos dentro del contenedor */
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div, body{
+    box-sizing: border-box;
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #000;
+    justify-content:space-evenly;  
+
+}
+
+.flex-item{
+    width: 100px;
+    color: #fff;
+    background-color:#911;
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+.flex-item:first-child{
+    background-color: #d56;
+    
+}
