@@ -1,6 +1,6 @@
 // array es una variable donde dentro puede contener cualquier cosa;se llama (elementos) y guardarlo 
 
-// let array = ["lucas",24, "buenos aires"];
+// let array = ["lucas", 24, "buenos aires"];
 
 // ejemplo una variable array llamado frutas
 
